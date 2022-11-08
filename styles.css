@@ -5,6 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccffe5;
 }
 
 .container {
@@ -31,9 +32,9 @@ body {
     align-items: center;
     width: 100px;
     height: 100px;
-    border: 1px solid black;
+    border: 1px solid rgb(85, 168, 181);
     cursor: pointer;
-    background-color: white;
+    background-color: #e6e6ff44;
 }
 
 .turn {
@@ -45,7 +46,7 @@ body {
 
 .restart {
     margin-top: 10px;
-    background-color: violet;
+    background-color: rgba(202, 181, 212, 0.334);
     border: 1px solid black;
     padding: 10px;
     font-size: 15px;
