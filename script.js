@@ -33,7 +33,7 @@ function main(){
 function addCellsPlayer(indices, player){
     let cell = cellsArr[indices[0]][indices[1]]
     if (winner == null){
-        if (player.length < 3){  //Only 3 turns each
+        if (player.length < 3 && cell.innerHTML == ""){  //Only 3 turns each
             if (player == player1){
                 cell.innerHTML = "x";
                 flag = false;
